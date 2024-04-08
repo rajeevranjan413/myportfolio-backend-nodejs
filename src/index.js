@@ -8,9 +8,9 @@ connectDb()
    .then(() => {
 
       app.listen(process.env.PORT || 8000, () => {
-         console.log("\napp listen on port no:", process.env.PORT)
+         console.log("\nApp listen on port no:", process.env.PORT)
       })
    })
    .catch((err) => {
-      console.log("\nDatabase connection faild !", err)
+      console.log("\n Database connection faild !", err)
    })
