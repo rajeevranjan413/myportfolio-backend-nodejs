@@ -18,6 +18,9 @@ lerna-debug.log*
 *.sln
 *.sw?
 
+
+/node_modules
+/.env
 # Client
 client/node_modules
 client/dist
